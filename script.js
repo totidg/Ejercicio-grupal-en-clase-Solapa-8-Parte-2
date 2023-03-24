@@ -1,13 +1,10 @@
 
-
 const CONTENEDOR = document.getElementById('conteiner');
-
-
 
 function suma() {
   let numero1 = document.getElementById('numero1').value;
   let numero2 = document.getElementById('numero2').value;
-  const TOTAL = +numero1 + +numero2;
+  const TOTAL = +numero1 + +numero2; // Unary plus (+)
    CONTENEDOR.innerHTML = 'La suma de los números es: ' + TOTAL;
 }
 
